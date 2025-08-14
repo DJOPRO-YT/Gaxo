@@ -1,0 +1,6 @@
+{
+    "image":"btn.png",
+    "inputs":["Name"],
+    "need_size":true,
+    "code":"design.[[Name]] = design.win:button(design.win, [[x]], [[y]], [[w]], [[h]])"
+}
