@@ -1,51 +1,60 @@
-# --
-### Make you Paxo Apps with easy !
+# -- --
+### Make your PaxoPhone Apps with easy !
 
-<img width="581" height="142" alt="image" src="https://github.com/user-attachments/assets/8a1cad10-bee8-4f48-ba2b-6e2621ebecf5" />
+<img width="581" height="142" alt="-- -- logo" src="-- --" />
 
 # 📝 Description:
-- **--** is a Software that let you make applications for the PaxoPhone 
+- **-- --** is an **Open Source** Windows Software that makes the process of making a PaxoPhone application easier and less time consuming.
 
 # ✨ Features:
-- Duino-Coin Miner like the others !
-- Add you own Mining System With Add-ons !
-- Open-Sources !
+- Intuitive, user-friendly interface.
+- Visual UI Designer.
+- Built-in PaxOS Emulator.
 
 # 📲 How to install and run it ?
-1. Make sure that `python3` is installed on your device.
-2. Clone this repository on your device by doing :
-```bash
-git clone https://github.com/DJOPRO-YT/UltraDUCO
-```
-or by downloading the ZIP file of the repository from Github Website And extracting it!
-3. Go to the cloned repository folder by doing :
-```bash
-cd path/to/your/UltraDUCO
-```
-4. Install the requirements by doing :
-```bash
-pip install -r requirements.txt
-```
 
+> [!IMPORTANT]
+> To run this software on your Windows computer, you need to make sure that the .Net Framework 4.5 is installed.
+
+1. Go to <a href="https://github.com/DJOPRO-YT/Gaxo/releases">Releases</a>
+2. Choose a version and download the pre-compiled software .zip file
+
+> [!TIP]
+> If you don't want to install the precompiled version, just download the project files and then use Visual Studio to compile it by yourself.
+
+3. Extract the file and enjoy !
+   
 # 🧐 How to use it ?
-1. After installing UltraDUCO, Execute the Python code to run the program by doing :
-```bash
-python3 Miner.py
-```
-or 
-```bash
-python Miner.py
-```
-2. Enter your Duino-Coin Username and press enter !
-3. Enter your mining key (if you have) and press enter !
-4. Now the system will tell if you want to choose between the Default Miner or one of the Add-ons by entering **D** or **A**.
+### Setting up the -- -- project:
+1. Run the program.
+2. If you want to create a new application, click on "New Project". If not, just click on "Load Project".
+3. If you clicked on "Load Project":
+  - Just select the correct folder of the project (usually located on `Documents\-- -- Projects`)
+3. If you clicked on "New Project":
+  - Fill all the blanks and then click on Create Project when its enabled.
 
 > [!NOTE]
-> If you choose the Add-on option, He will do a quick verification on the Addons Folder located at `UltraDUCO/Addons`, After that you need to choose between the available Add-ons that are found by entering her index.
+> - **SDK** or **S**oftware **D**evelopment **K**it is a collection of tools that helps developers create applications for a specific platform like an operating system or hardware.
+> - **Toolkit** is the container of the actual components that will be available for the user while working on the UI part (Labels, Inputs, Buttons, ...).
 
-5. After Choosing the Miner to use, The system will connects you to the Fastest Pool and tells you some informations about the pool that he is connecting to it !
-6. After that, The system will tell you to choose the difficuly of the Job that will be requested by the pool (`HIGH` `MEDIUM` `LOW`).
-7. Just wait until UltraDOCU start the miner choosed and shows the result of every shares sended !
-
-# 🛠️ How to create my own Add-on ?
-- If you want to create you own Add-on just check our <a href="https://github.com/DJOPRO-YT/UltraDUCO/wiki">Wiki</a> !
+4. Just wait until the loading finishes and thats it !
+### Tips while working on the application:
+1. Each time you make a progress, make sure you save the project by doing "File > Save the Project" or Ctrl+S.
+2. In the bottom-left of the Window, you can find all the files and folders that are in your folder project.
+3. In the bottom-left of the Window, right click on one of the Items (file / folder) to see more options like "Open Folder with Explorer" or "Open File with Notepad".
+# ➕ How to add an SDK, Toolkit or Emulator to the Software ?
+### SDK:
+1. Download the SDK and Extract the Folder (If needed)
+2. Locate the Software Folder
+3. Move the new SDK folder to `SDKs`
+4. The SDK is installed successfully
+### Toolkit:
+1. Download the Toolkit and Extract the Folder (If needed)
+2. Locate the Software Folder
+4. Move the new Toolkit folder to `SDKs\<your_sdk_name>\Toolkit`
+5. The Toolkit is installed succesfully.
+### Emulator:
+1. Download the PaxOS Emulator and Extract the Folder (If needed)
+2. Locate the Software Folder
+3. Move the new PaxOS Emulator folder to `Emulators`
+4. The Emulator is installed succesfully.
